@@ -37,7 +37,7 @@
 
 	async function getLocation() {
 		const {data} = await axios.get(
-			'http://elmtree.ro:3000/'
+			'https://api.elmtree.ro/'
 		)
 
 		console.log(data.long)
