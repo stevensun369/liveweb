@@ -32,8 +32,8 @@
     };
   }
 
-	let lat = 20.5
-	let long = 20.6
+	let lat = 45.7655526
+	let long = 21.1868424
 
 	async function getLocation() {
 		const {data} = await axios.get(
