@@ -14,7 +14,7 @@
         attribution: `&copy;<a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a>,
           &copy;<a href="https://carto.com/attributions" target="_blank">CARTO</a>`,
         subdomains: 'abcd',
-        maxZoom: 10,
+        maxZoom: 18,
       }
     ).addTo(m);
 
@@ -32,8 +32,8 @@
     };
   }
 
-	let lat = 45.7655526
-	let long = 21.1868424
+	let lat = 45.7574972
+	let long = 21.2263437
 
 	async function getLocation() {
 		const {data} = await axios.get(
